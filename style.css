@@ -53,7 +53,13 @@ textarea{
     max-width: 140px;
     display: block;
     margin: auto;
+    cursor: pointer;
     }
+
+p{
+    text-align: center;
+    color: var(--secondary-color);
+}
 
 .footer{    
     background-color: var(--primary-color);
@@ -61,7 +67,7 @@ textarea{
     padding: 2rem;  
     display: block;
     text-align: center;
-    
+    margin-top: 2rem;   
     
 }
 

@@ -16,6 +16,9 @@ function errorHandler(error){
 
 function clickHandler(){
    var inputTxt = txtInput.value;
+   if(inputTxt === ""){
+      alert("Please enter input text.");
+   }
    fetch(getTranslation(inputTxt))
     .then(response => response.json())
     .then(json => {
